@@ -1,0 +1,11 @@
+apply plugin: 'com.android.library'
+
+android {
+    namespace 'cleancode.imagetoolkit'
+    compileSdk 33
+    defaultConfig {
+        //noinspection OldTargetApi
+        targetSdk 33
+        minSdk 21
+    }
+}
