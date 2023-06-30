@@ -106,7 +106,6 @@ yourImage.setColorFilter(ColorFilterGenerator.adjustColor(int hue, int contrast,
 ```java
 ImageView imageView = findViewById(R.id.imageView);
 Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.image);
-
 float brightness = 50f;
 float contrast = 1.5f;
 float hue = 45f;
