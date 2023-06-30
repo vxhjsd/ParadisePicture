@@ -38,15 +38,13 @@ public class NoiseView extends View {
         invalidate();
     }
 
-    public void update() { init(); }
-
     public int getEffectAlpha() {
         return this.effectAlpha;
     }
 
     public void setEffectAlpha(int effectAlpha) {
         this.effectAlpha = effectAlpha;
-        update();
+        init();
     }
 
     public int getNumberToRepeat() {
@@ -55,17 +53,17 @@ public class NoiseView extends View {
 
     public void setNumberToRepeat(int numberToRepeat) {
         this.numberToRepeat = numberToRepeat;
-        update();
+        init();
     }
 
     public void setOriginalResFromAsset(Context context, String fileName) {
         originalRes = getBitmapFromAsset(context, fileName);
-        update();
+        init();
     }
 
     public void setOriginalResFromResource(Context context, int resId) {
         originalRes = BitmapFactory.decodeResource(context.getResources(), resId);
-        update();
+        init();
     }
 
     @Override
