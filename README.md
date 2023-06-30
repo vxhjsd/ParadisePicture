@@ -1,7 +1,7 @@
 <br>
 <div align="center">
   <a href="https://github.com/vxhjsd/ImageToolkit">
-    <img src="https://github.com/vxhjsd/ImageToolkit/assets/135047865/48c1a8d9-78b4-41ca-ae62-d349a51a0b4b" width="640"/>
+    <img src="https://github.com/vxhjsd/ImageToolkit/assets/135047865/63af13a4-3596-4da0-9566-c8006f70ecab" width="640"/>
   </a>
   </div>
 <br>
