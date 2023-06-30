@@ -2,7 +2,7 @@ package sample.app;
 
 import android.app.Activity;
 import android.os.Bundle;
-import cleancode.imagetoolkit.sample.R;
+import com.sample.R;
 
 public class MainActivity extends Activity {
 
