@@ -38,18 +38,3 @@ public class ImageAdjuster {
         return adjustedBitmap;
     }
 }
-
-/* example
-
-        ImageView imageView = findViewById(R.id.imageView);
-        Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.image);
-
-        float brightness = 50f;
-        float contrast = 1.5f;
-        float hue = 45f;
-        float saturation = 1.2f;
-
-        Bitmap adjustedBitmap = ImageAdjuster.adjustImage(bitmap, brightness, contrast, hue, saturation);
-        imageView.setImageBitmap(adjustedBitmap);
-
-*/
