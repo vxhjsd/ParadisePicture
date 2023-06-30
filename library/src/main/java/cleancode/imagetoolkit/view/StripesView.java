@@ -44,7 +44,7 @@ public class StripesView extends View {
 
     public void setEffectAlpha(int effectAlpha) {
         this.effectAlpha = effectAlpha;
-        invalidate();
+        init();
     }
 
     public int getNumberToRepeat() {
@@ -53,17 +53,17 @@ public class StripesView extends View {
 
     public void setNumberToRepeat(int numberToRepeat) {
         this.numberToRepeat = numberToRepeat;
-        invalidate();
+        init();
     }
 
     public void setOriginalResFromAsset(Context context, String fileName) {
         originalRes = getBitmapFromAsset(context, fileName);
-        invalidate();
+        init();;
     }
 
     public void setOriginalResFromResource(Context context, int resId) {
         originalRes = BitmapFactory.decodeResource(context.getResources(), resId);
-        invalidate();
+        init();
     }
 
     @Override
