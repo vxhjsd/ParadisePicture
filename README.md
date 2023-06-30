@@ -1,11 +1,11 @@
 <br>
 <div align="center">
   <a href="https://github.com/vxhjsd/ImageToolkit">
-    <img src="https://github.com/vxhjsd/ImageToolkit/assets/135047865/2e5212e8-701b-4578-bbd6-0e726bf5e42e" width="640"/>
+    <img src="https://github.com/vxhjsd/ImageToolkit/assets/135047865/48c1a8d9-78b4-41ca-ae62-d349a51a0b4b" width="640"/>
   </a>
   </div>
 <br>
-  
+
 # ImageToolkit 
 
 ImageToolkit is a lightweight, simple library that will help those who make photo editors in Sketchware (and maybe not only in Sketchware). If you want to improve the project or add something to it, go ahead.
@@ -15,7 +15,8 @@ ImageToolkit is a lightweight, simple library that will help those who make phot
 1. Download source code
 - There are two folders in the path `library\src\main\java\cleancode\imagetoolkit` , copy them to any convenient place
 
-   ![tutor](https://github.com/vxhjsd/ImageToolkit/assets/135047865/49043cd9-e887-41e5-a089-e22a53f433ec)
+   ![tutor](https://github.com/vxhjsd/ImageToolkit/assets/135047865/1c9923db-1e50-4a57-addb-d69b6b171f3a)
+
 
 2. Now create an empty project in Sketchware with package name `cleancode.imagetoolkit`
    > You can use any package name, but you'll have to change it in the classes too, so I don't recommend doing that
@@ -116,7 +117,7 @@ imageView.setImageBitmap(adjustedBitmap);
 
 ## License
 
-![WTFPL](https://github.com/vxhjsd/ImageToolkit/assets/135047865/a0bd5cb0-5977-43ee-bfae-91a46e58a4cc)
+![WTFPL](https://github.com/vxhjsd/ImageToolkit/assets/135047865/c6f1fac7-5d80-4ecb-95e9-3b6761a6f001)
 
 This project uses the [WTFPL license](http://www.wtfpl.net/)
 (Do **W**hat **T**he **F**uck You Want To **P**ublic **L**icense)
