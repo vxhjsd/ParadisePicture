@@ -15,7 +15,7 @@ ImageToolkit is a lightweight, simple library that will help those who make phot
 1. Download source code
 - There are two folders in the path `library\src\main\java\cleancode\imagetoolkit` , copy them to any convenient place
 
-   ![tutor](https://github.com/vxhjsd/ImageToolkit/assets/135047865/1c9923db-1e50-4a57-addb-d69b6b171f3a)
+   ![tutor](https://github.com/vxhjsd/ImageToolkit/blob/minor/sample/src/main/assets/tutor.png)
 
 
 2. Now create an empty project in Sketchware with package name `cleancode.imagetoolkit`
