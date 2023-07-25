@@ -1,16 +1,14 @@
 <br>
 <div align="center">
   <a href="https://github.com/vxhjsd/ParadisePicture">
-    <img src="https://github.com/vxhjsd/ParadisePicture/blob/minor/sample/src/main/assets/header_new.png"/>
+    <img src="https://github.com/vxhjsd/ParadisePicture/blob/main/sample/src/main/assets/header.png"/>
   </a>
   </div>
   </br>
-
-  <br>
+  
   <p align="center">
   <img alt="Android" src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white"/></a>
   <img alt="Java" src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white"/></a>
-</br>
 
 Lightweight, simple library that will help those who make photo editors in Sketchware (and maybe not only in Sketchware). If you want to improve the project or add something to it, go ahead.
 
@@ -19,7 +17,7 @@ Lightweight, simple library that will help those who make photo editors in Sketc
 1. Download source code
 - There are two folders in the path `library\src\main\java\cleancode\paradise` , copy them to any convenient place
 
-   ![tutor](https://github.com/vxhjsd/ParadisePicture/blob/minor/sample/src/main/assets/tutor_new.png)
+   ![tutor](https://github.com/vxhjsd/ParadisePicture/blob/main/sample/src/main/assets/tutor.png)
 
 
 2. Now create an empty project in Sketchware with package name `cleancode.paradise`
@@ -121,7 +119,7 @@ imageView.setImageBitmap(adjustedBitmap);
 
 ## License
 
-![WTFPL](https://github.com/vxhjsd/ParadisePicture/blob/minor/sample/src/main/assets/wtfpl.png)
+![WTFPL](https://github.com/vxhjsd/ParadisePicture/blob/main/sample/src/main/assets/wtfpl.jpg)
 
 This project uses the [WTFPL license](http://www.wtfpl.net/)
 (Do **W**hat **T**he **F**uck You Want To **P**ublic **L**icense)
