@@ -1,24 +1,26 @@
 <br>
 <div align="center">
-  <a href="https://github.com/vxhjsd/ImageToolkit">
-    <img src="https://github.com/vxhjsd/ImageToolkit/blob/minor/sample/src/main/assets/header.png"/>
+  <a href="https://github.com/vxhjsd/ParadisePicture">
+    <img src="https://github.com/vxhjsd/ParadisePicture/blob/minor/sample/src/main/assets/header_new.png"/>
   </a>
   </div>
-<br>
+  
+  <p align="center">
+  <img alt="Android" src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white"/></a>
+  <img alt="Java" src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white"/></a>
+</br>
 
-# ImageToolkit 
-
-ImageToolkit is a lightweight, simple library that will help those who make photo editors in Sketchware (and maybe not only in Sketchware). If you want to improve the project or add something to it, go ahead.
+Lightweight, simple library that will help those who make photo editors in Sketchware (and maybe not only in Sketchware). If you want to improve the project or add something to it, go ahead.
 
 ## How to build it using Sketchware & MT Manager
 
 1. Download source code
-- There are two folders in the path `library\src\main\java\cleancode\imagetoolkit` , copy them to any convenient place
+- There are two folders in the path `library\src\main\java\cleancode\paradise` , copy them to any convenient place
 
-   ![tutor](https://github.com/vxhjsd/ImageToolkit/blob/minor/sample/src/main/assets/tutor.png)
+   ![tutor](https://github.com/vxhjsd/ParadisePicture/blob/minor/sample/src/main/assets/tutor_new.png)
 
 
-2. Now create an empty project in Sketchware with package name `cleancode.imagetoolkit`
+2. Now create an empty project in Sketchware with package name `cleancode.paradise`
    > You can use any package name, but you'll have to change it in the classes too, so I don't recommend doing that
    
 3. Go to your project's Java/Kotlin manager, create **tool** and **view** folders
@@ -34,7 +36,7 @@ ImageToolkit is a lightweight, simple library that will help those who make phot
 
   > You can remove extra classes created by Sketchware, then only two folders will remain
   
-- Download the **config** in [Releases](https://github.com/vxhjsd/ImageToolkit/releases), or create it yourself, the package name is indicated there.
+- Create a **config** file containing the package name
 
 ### Source Code Map
 
@@ -46,22 +48,22 @@ ImageToolkit is a lightweight, simple library that will help those who make phot
 | `NoiseView`                 | Noise effect                           |
 | `StripesView`               | Stripes effect                         |
 
-# How do I use ImageToolkit?
+# How do I use ParadisePicture?
 
 ### Import the library classes you need
 
 ```java
-import cleancode.imagetoolkit.tool.ColorFilterGenerator;
-import cleancode.imagetoolkit.tool.ImageAdjuster;
-import cleancode.imagetoolkit.view.NoiseView;
-import cleancode.imagetoolkit.view.StripesView;
-import cleancode.imagetoolkit.view.VignetteView;
+import cleancode.paradise.tool.ColorFilterGenerator;
+import cleancode.paradise.tool.ImageAdjuster;
+import cleancode.paradise.view.NoiseView;
+import cleancode.paradise.view.StripesView;
+import cleancode.paradise.view.VignetteView;
 ```
 
 ### VignetteView
 
 ```xml
-<cleancode.imagetoolkit.view.VignetteView
+<cleancode.paradise.view.VignetteView
 android:id="@+id/a"
 android:layout_height="350dp"
 android:layout_width="350dp"
@@ -78,7 +80,7 @@ yourView.setVignetteAlpha(int alpha);
 > The classes are similar, so only the numbers can be different.
 
 ```xml
-<cleancode.imagetoolkit.view.NoiseView
+<cleancode.paradise.view.NoiseView
 android:id="@+id/noise"
 android:layout_height="350dp"
 android:layout_width="350dp"
@@ -117,7 +119,7 @@ imageView.setImageBitmap(adjustedBitmap);
 
 ## License
 
-![WTFPL](https://github.com/vxhjsd/ImageToolkit/assets/135047865/c6f1fac7-5d80-4ecb-95e9-3b6761a6f001)
+![WTFPL](https://github.com/vxhjsd/ParadisePicture/blob/minor/sample/src/main/assets/wtfpl.png)
 
 This project uses the [WTFPL license](http://www.wtfpl.net/)
 (Do **W**hat **T**he **F**uck You Want To **P**ublic **L**icense)
