@@ -14,7 +14,7 @@ public class MainActivity extends Activity {
     }
 
     private void initialize() {
-        cleancode.imagetoolkit.view.NoiseView noisee = findViewById(R.id.noise);
+        cleancode.paradise.view.NoiseView noisee = findViewById(R.id.noise);
         noisee.setOriginalResFromAsset(this,"noise.png");
     }
 
